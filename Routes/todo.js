@@ -1,10 +1,10 @@
-const express=require("express");
-const router=express.Router();
+const express = require("express");
+const router = express.Router();
+const tirth = require("../controllers/createTodo")
 
-//import Controller
-const {createTodo}=require("../controllers/createTodo.")
 
-//define Api routes
-router.post("/createTodo",createTodo);
+router.route("/").get(tirth.home);
+   
+router.route("/register").get(tirth.register);
 
-module.exports=router;
+module.exports = router
