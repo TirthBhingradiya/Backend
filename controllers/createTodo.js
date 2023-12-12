@@ -1,6 +1,6 @@
 const home =async(req,res)=>{ 
     try{
-        res.status(200).send("welcome to world best mern series by pinal using controller");
+        res.status(200).send("welcome to world best mern series by Tirth using controller");
     }catch(error){
         console.log(error);
     }
@@ -9,7 +9,7 @@ const home =async(req,res)=>{
 const register =async (req,res) =>{
     try{
         console.log(req.body);
-        res.status(200).send("Hello how are you")
+        
     }catch(error){
         res.status(400).json("page not found")
     }
