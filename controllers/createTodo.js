@@ -9,7 +9,7 @@ const home =async(req,res)=>{
 const register =async (req,res) =>{
     try{
         console.log(req.body);
-        res.status(200).send("Happy birthday Pinal")
+        res.status(200).send("Hello how are you")
     }catch(error){
         res.status(400).json("page not found")
     }
