@@ -1,10 +1,10 @@
 const express = require("express");
-const router = express.Router();
-const tirth = require("../controllers/createTodo")
+const routes = express.Router();
+const controllers = require("../controllers/createTodo")
 
 
-router.route("/").get(tirth.home);
+routes.route("/").get(controllers.home);
    
-router.route("/register").get(tirth.register);
+routes.route("/register").post(controllers.register);
 
-module.exports = router
+module.exports = routes

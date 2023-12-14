@@ -13,4 +13,3 @@ const PORT = 3000;
 app.listen(PORT,()=>{
     console.log('serevr is running port:3000');
 });
-
