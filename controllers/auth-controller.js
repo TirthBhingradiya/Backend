@@ -1,6 +1,6 @@
 const home =async(req,res)=>{ 
     try{
-        res.status(200).send("welcome to world best mern series by pinal using controller");
+        res.status(200).send("welcome to world best mern series by tirth using controller");
     }catch(error){
         console.log(error);
     }
